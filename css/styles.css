@@ -1,0 +1,861 @@
+@charset "utf-8";
+/* CSS Document */
+ body {
+	margin: 0;
+	padding: 0;
+ }
+ 
+ @font-face {
+        font-family: bebas;
+        src: url(../Font/bebas.TTF);
+}
+
+ #background 
+{ 
+	 
+	 background-position:center;
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1024px;
+	 overflow: hidden;
+	 z-index:0;
+	 
+	} 
+	
+	 .more {
+	 height:18px;
+	 width:61px;
+	 float:right;
+	 margin-top:-18px;
+	 text-align:center;
+	 background-image:images/more.png;
+ }
+ .more img {
+	 margin-top:3px;
+ }
+	#print {
+		margin:auto;
+		float:left;
+		padding:1px;
+		font-size:8px;
+		text-align:center;
+		}
+		
+	
+		
+	p {
+		font-size:12px;
+		color:#000;
+		font-family:Arial, Helvetica, sans-serif;}
+	
+	a { 
+	text-decoration:none;
+	}
+	h3 {
+		letter-spacing:2px;
+		font-size:20px;
+		font-family:BEBAS;
+		font-weight:normal;
+	}
+	
+	#header { 
+	padding:7px;
+	margin-left:30px;
+	margin-right:auto;
+	width:940px;
+	height:180px;
+	float:left;
+	}
+	
+	#header #LOGO01 {
+	
+	}
+	
+	 #header #search 
+{
+	margin-left:auto;
+	margin-right:8px;
+	margin-top:-30px;
+	width: 250px;
+	height: 28px;
+} 
+	#tfnewsearch{
+		float:right;
+	}
+	.tftextinput4{
+		margin: 0;
+		padding: 6px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		color:#666;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;	
+	}
+	.tfbutton4 {
+		margin: 0;
+		padding: 0;
+		width:30px;
+		height:30px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		font-weight:bold;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+		background: #438db8 url('../images/tf-search-icon.png');
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton4::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+time {
+	font-size:12px;
+	font-style:italic;
+}
+
+#clear {clear:both;}
+
+#slider {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#navigation 
+{ 
+	 margin-top:10px;
+	 width: 940px;
+	 height: 45px;
+	 z-index:13;
+	 font-family:BEBAS;
+	 text-transform:uppercase;
+	 background-color:#d81458;
+	 font-size:15px;
+} 
+
+	#navigation ul {
+		text-align:center;
+		float : left;
+	}
+	
+	
+	#navigation ul li {
+		list-style:none;
+		display:inline;
+		padding:10px 3px 2px 5px ;
+		margin-right:10px;
+		line-height:5px;
+	}
+	
+	#navigation ul li a {
+		color:#FFF;
+		text-decoration : none;
+	}
+	
+	#navigation ul li a:hover {
+		color:#F00;
+	}
+	
+/* end of navigation */
+
+
+#wrapper { 
+	width:650px;
+	float:left;
+	margin-top:0px;
+	margin-right:auto;
+	margin-left:38px;
+}
+#left_content {
+	width:310px;
+	float:left;
+	margin-top:10px;
+}
+
+#mediaroom { 
+	 width: 450px;
+	 float:left;
+}
+
+#mediaroom h3 {
+	 color:#990099;
+	 margin-top:10px;
+	width:440px;
+	 padding:0px;
+	 border-bottom:solid 2px;
+	 border-top:none;
+	 border-left:none;
+	 border-right:none;
+}
+
+#mediaroom .content {
+	display:inline-block;
+	width:140px;
+	float:left;
+	margin-right:10px;
+	margin-bottom:30px;
+}
+
+#mediaroom .content img {
+	width:140px;
+	height:100px;
+}
+#mediaroom .content p {
+	 margin-top:5px;
+	 width:140px;
+	 letter-spacing:0.5px;
+}
+
+#mediaroom .content a {
+	color:#990099;
+	font-weight:bold;
+}
+
+
+
+#center_content {
+	width:300px;
+	margin-left:470px;
+	margin-right:100px;
+	margin-top:20px;
+}
+
+
+#visitor {
+	width:200px;
+	border:1px solid;
+}
+
+#visitor h3 {
+	color:#990099;
+	 margin-top:10px;
+	 border-bottom:solid 2px #990099;
+}
+
+
+#visitor a {
+	color:#990099;
+	font-size:12px;
+}
+#visitor .content {
+	width:191px;
+	border-bottom: 1px dotted;
+	padding-bottom: 10px;
+	margin-top:10px;
+}
+
+#visitor .content strong {
+	font-size:12px;
+}
+
+
+ #Exhibitor 
+{ 
+	margin-top:40px;
+	 width: 190px;
+	 margin-bottom:50px;
+	 } 
+
+
+#Exhibitor h3 {
+	color:#D61B5B;
+	border-bottom:solid 3px;
+	border-color:#D61B5B;
+	padding:0px;
+	margin:0px;
+}
+
+#Exhibitor a {
+	color:#D61B5B;
+}
+ 
+ #Exhibitor .content {
+	 width:190px;
+	 margin-bottom:20px;
+ }
+ 
+ #Exhibitor img{
+	 width:150px;
+ }
+ #Exhibitor p {
+	 color:#D61B5B;
+ }
+
+#mediaroom_content {
+		width:650px;
+		float:left;
+		margin-top:10px;
+}
+
+#mediaroom_content img {
+	  float:left;
+	  width:200px;
+	  height:100px;
+	  margin-right:20px;
+	  margin-top:10px;
+	  border:solid 5px #CCCCCC;
+}
+
+#mediaroom_content h3 {
+	 color:#990099;
+	 margin-top:10px;
+	 padding:0px;
+	 border-bottom:solid 3px;
+	 border-top:none;
+	 border-left:none;
+	 border-right:none;
+}
+
+#mediaroom_content a {
+	color:#AE00A2;
+	font-size:16px;
+}
+
+#mediaroom_content .content {
+	 width:650px;
+	 margin-top:10px;
+	  border-bottom:groove 2px;
+	  padding-bottom:20px;
+}
+
+#mediaroom_content p {
+	font-size:12px;
+	  margin-top:0px;
+	  padding-top:10px;
+}
+
+#mediaroom_artikel {
+	width:650px;
+	float:left;
+	margin-top:0px;
+	margin-bottom:20px;
+}
+
+#mediaroom_artikel h3{
+	font-size:20px;
+	color:#AE00A2;
+	border-bottom:solid 3px;
+	font-family:BEBAS;
+	font-weight:normal;
+}
+
+#mediaroom_artikel #title {
+	font-size:20px;
+	color:#000;
+	font-family:BEBAS;
+	margin-top:-2px;
+	margin-bottom:15px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	
+}
+
+#mediaroom_artikel .content {
+	width:650px;
+	float:left;
+	margin-top:15px;
+	border-bottom:solid 2px #999999;
+	padding-bottom:10px;
+}
+
+#mediaroom_artikel .content img {
+	float:left;
+	width:300px;
+	height:200px;
+	margin-right:20px;
+}
+
+#mediaroom_artikel .seminar_content  {
+	text-align:center;
+margin-top:15px;
+	border-bottom:solid 2px #999999;
+	padding-bottom:10px;
+	}
+	
+#mediaroom_artikel .seminar_content img {
+	width:300px;
+	height:200px;
+	}
+#mediaroom_artikel .thumbnail img {
+	width:120px;
+	height:80px;
+	float:left;
+	margin:10px;
+}
+
+#mediaroom_artikel .thumbnail2 img {
+	width:180px;
+	float:center;
+	margin-top: 35px;
+	margin-bottom: 50px;
+	margin-right:30px;
+	
+}
+
+#mediaroom_artikel .content p {
+	font-size:14px;
+	margin-bottom:5px;
+}
+
+#mediaroom_artikel .comment {
+	width:680px;
+}
+
+#mediaroom_artikel #comment {
+	width:680px;
+	}
+	
+#mediaroom_artikel b {
+	font-family:BEBAS;
+	color:#CCCCCC;
+	font-size:28px;
+	padding:10px;
+	margin-top:20px;
+
+}
+#mediaroom_artikel .comment .box {
+	width:650px;
+	height:50px;
+	float:left;
+	border:dotted 2px;
+	border-left:none;
+	border-right:none;
+}
+
+#mediaroom_artikel .comment img{
+	float:left;
+	width:80px;
+	height:80px;
+	margin-top:10px;
+	border-style:inset;
+	border:#FFFFFF 2px;
+	margin-right:20px;
+}
+
+
+#mediaroom_artikel .comment .content {
+		float : left;
+		padding:10px;
+		border-bottom:ridge;
+}
+
+#mediaroom_artikel .comment .pagging { 
+	text-align:center;
+	margin-top:20px;
+	font-size:16px;
+	font-style:italic;
+}
+
+#mediaroom_artikel .comment .info {
+	float:right;
+	font-size:16px;
+	font-style:italic;
+	margin-top:-10px;
+	word-spacing:10px;
+}
+
+#mediaroom_artikel .content #print {
+	padding:5px;
+	margin-top:20px;
+	text-align:center;
+	float:left;
+	font-size:14px;
+	}
+
+#mediaroom_artikel .content #print p {
+	font-size:12px;
+	}
+
+
+	#release  { 
+	 width: 650px;
+		
+	 
+} 
+	#release h3 {
+		color:#AE00A2;
+	}
+	
+	#release .content { 
+	width : 320px;
+	  border-bottom:groove 2px;
+	  padding-bottom:10px;
+	  margin-right:5px;
+	   display:inline;
+	   float:left;
+	}
+	
+	#release img {
+		width:80px;
+		height:80px;
+		border:solid 5px #CCCCCC;
+		float : left;
+		 margin-right:20px;
+	  margin-top:10px;
+	}
+	
+	#release p {
+		padding-left:10px;
+		font-size:12px;
+  
+	}
+	
+	#release time {
+		font-size:12px;
+		font-style:italic;
+	}
+	
+	
+	#newsupdate { 
+	 width: 650px;
+	 z-index:11;
+	}
+	
+	#newsupdate h3 {
+		color:#AE00A2;
+	}
+	
+	#newsupdate .content { 
+	width : 320px;
+	  border-bottom:groove 2px;
+	 
+	  padding-bottom:10px;
+	  margin-right:5px;
+	   display:inline;
+	   float:left;
+	}
+	
+	
+	#videopromo {
+	 width: 650px;
+	 z-index:11;
+	}
+
+	#videopromo h3 {
+		color:#AE00A2;
+	}
+	
+	#videopromo .content {
+		width : 320px;
+	  border-bottom:groove 2px;
+	  
+	  padding-bottom:10px;
+	  margin-right:5px;
+	   display:inline;
+	   float:left;
+	}
+	
+	#videopromo p {
+		padding-left:10px;
+		font-size:12px;
+	}
+	
+	#videopromo img {
+			width:80px;
+		height:80px;
+		border:solid 5px #CCCCCC;
+		float : left;
+		 margin-right:20px;
+	  margin-top:10px;
+	}#videopromo time {
+		font-size:12px;
+		font-style:italic;
+	}
+	
+	#newsupdate img {
+		width:80px;
+		height:80px;
+		
+		border:solid 5px #CCCCCC;
+		float : left;
+		 margin-right:20px;
+	  margin-top:10px;
+	}
+	
+	#newsupdate p {
+		padding-left:10px;
+		font-size:12px;
+		
+  
+	}
+	
+	#newsupdate time {
+		font-size:12px;
+	}
+	
+	
+#rightbar {
+	width:250px;
+	float:right;
+	margin-left:20px;
+	margin-right:48px;
+	margin-top:4px;
+}
+
+#Signuplogin 
+{ 
+	 width: 250px;
+	 height: 212px;
+	 padding-bottom: 20px;
+	 text-align:center;
+	 float:right;
+	 margin-bottom:20px;
+	
+} 
+#Signuplogin h3 {
+	letter-spacing:0;
+	color:#D61B5B;
+	padding:0px;
+	margin:10px;
+	font-weight:normal;
+}
+
+#Signuplogin p {
+	margin-top:4px;
+	font-size:12px;
+}
+#Signuplogin input {
+	width: 200px;
+	height: 20px;
+	margin-top:5px;
+}
+#btn_submit {
+	
+margin-top: 7px;
+font-size: 15px;
+padding-right: 7px;
+padding-left: 7px;
+color: white;
+background-color: #D61B5B;
+border: none;
+}
+
+
+ #twitter 
+{ 
+	 margin-top:20px;
+	 width: 249px;
+	 z-index:4;
+	 margin-bottom:80px;
+} 
+
+#twitter h3 {
+	font-size:20px;
+	font-family:BEBAS;
+	color:#8000FF;
+	border-bottom:#8000FF solid 2px;
+}
+
+#twitter p {
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+ font-weight:bold;
+}
+
+#twitter a {
+	color:#8000ff;
+}
+
+#twitter .content {
+	border-bottom:dotted thin;
+	margin-bottom:20px;
+	margin-top:10px;
+}
+
+#twitter time {
+	font-size:10px;
+}
+
+#MostRead 
+{ 
+	margin-top:20px; 
+	 width: 249px;
+	 z-index:3;
+} 
+#MostRead h3 {
+	color:#FDB713;
+	border-color:#FDB713;
+	border-bottom:solid 2px;
+	
+}
+#MostRead a{
+	color:#FDB713;
+}
+#MostRead .content {
+	margin-top:0px;
+	padding-top:0px;
+	width:249px;
+	border-bottom:dotted 1px;
+	padding-bottom:5px;
+}
+
+ #footer 
+{ 
+	 width: 940px;
+	 height: 10px;
+	 float:left;
+	margin-left:40px;
+	 z-index:2;
+	 border-top: 1px dotted;
+	 margin-bottom:80px;
+	 margin-top:20px;
+} 
+
+#footer a {
+	display: inline-block;
+    font-size: 12px;
+    margin: 10px;
+    border-right: 1px solid;
+    padding-right: 26px;
+	color:#000;
+}
+#footer a:hover {
+	color:#F00;
+}
+
+#footer p {
+	text-align:center;
+	font-size:14px;
+}
+
+#slider {
+	width:940px;
+	margin-left:36px;
+	margin-right:auto;
+}
+
+#slider img {
+	width:940px;
+	height: 383px;
+}
+
+
+#SupportingProgram 
+{ 
+ 
+	 width: 450px;
+} 
+
+#SupportingProgram h3{
+	color:#75BECD;
+	border-bottom:solid 2px #75BECD;
+	 margin-top:10px;
+	 padding:0px;
+}
+
+#SupportingProgram a {
+	color:#75BECD;
+}
+
+#SupportingProgram .content {
+display:inline;
+	width:140px;
+	float:left;
+	margin-top:10px;
+	margin-right:15px;
+	margin-bottom:30px;
+	}
+	
+	#SupportingProgram .content img {
+	width:140px;
+	height:100px;
+	}
+	
+	#SupportingProgram p {
+	margin-top:5px;
+	}
+	
+ #gallery 
+{ 
+	
+	 width: 450px;
+} 
+
+#gallery h3 {
+	color:#D61B5B;
+	padding:0px;
+	margin:0px;
+	border-bottom:solid 2px #D61B5B;
+}
+
+#gallery .content {
+	margin-top:20px;
+	width:140x;
+	display:inline;
+	margin-bottom:30px;
+}
+
+#gallery .content  img {	
+	margin-top:20px;
+	width:140px; 
+	height:100px;
+	margin-right:5px;
+	}
+	
+	
+	#SeminarWorkshop 
+{   
+	 width: 450px;
+	 margin-top:20px;
+	
+} 
+liv
+#SeminarWorkshop h3 {
+	color:#FDB713;
+	padding:0px;
+	margin:0px;
+	border-bottom:solid 2px #FDB713;
+}
+
+#SeminarWorkshop p { 
+margin-top:10px;
+}
+#SeminarWorkshop strong {
+	font-size:14px;
+	}
+#SeminarWorkshop .content {
+	width:218px;
+	float:left;
+	border-bottom:dotted 1px ;
+	display:inline;
+	margin-right:7px;
+}
+#SeminarWorkshop a {
+	color:#FDB713;
+	
+}
+
+#livestreaming {
+	width: 940px;
+	 margin:auto;
+	 }
+
+	 #livestreaming #mediaplayer {
+		width: 720px;
+	 height: 405px;
+	 margin:auto;
+	 background:black;
+	 }
+	 
+	 #livestreaming #seminar {
+		 width: 215px;
+	 height: 121px;
+	 margin-left:40px;
+	 display:inline-block;
+	 margin-top:10px;
+	 float:left;
+	 }
+	 
+	 #livestreaming #seminar a {
+		display:inline;
+		}
+/* end of seminar */
+
